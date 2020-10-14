@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+    id 'idea'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.auth0:java-jwt:3.11.0'
+    implementation 'commons-codec:commons-codec:1.15'
+    testImplementation 'junit:junit:4.13'
+}
